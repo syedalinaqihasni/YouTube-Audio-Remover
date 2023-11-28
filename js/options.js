@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.getElementById("show-thumbnail");document.addEventListener("DOMContentLoaded",(function(){chrome.storage.sync.get({showThumbnail:!0},(function(n){e.checked=n.showThumbnail}))})),e.addEventListener("change",(function(){chrome.storage.sync.set({showThumbnail:e.checked})}))})();
